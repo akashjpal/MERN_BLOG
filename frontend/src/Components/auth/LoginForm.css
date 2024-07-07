@@ -1,0 +1,25 @@
+.auth--form {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin: 0 auto;
+  line-height: 2rem;
+}
+
+.auth--label {
+  display: flex;
+  flex-direction: column;
+}
+
+.auth--label > input {
+  border: none;
+  border-bottom: 1px solid lightgray;
+  padding: 0.6rem 0rem;
+  text-indent: 0.5rem;
+}
+
+@media screen and (max-width: 868px) {
+  .auth--form {
+    width: 80%;
+  }
+}
