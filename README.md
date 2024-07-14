@@ -3,7 +3,9 @@
 This is a MERN (MySQL, Express, React, Node.js) blog project. The project includes a frontend built with React, a backend with Node.js, and uses Docker instances for MySQL and MindsDB for database and AI predictions.
 
 # Demo Video
-[![Video](https://img.youtube.com/vi/Fbmu64TZc0w/0.jpg)](https://www.youtube.com/watch?v=Fbmu64TZc0w)
+https://github.com/user-attachments/assets/8f652ce2-8362-4722-bbd5-a1d729d78a8c
+
+
 
 
 
