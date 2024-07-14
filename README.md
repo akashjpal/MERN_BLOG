@@ -4,12 +4,8 @@ This is a MERN (MongoDB, Express, React, Node.js) blog project. The project incl
 
 # Video Example
 
-Here is a video embedded in the markdown:
+Here is a [link to the video](https://drive.google.com/uc?export=download&id=12yTIkqfgJKl_qPKsIVjyTOlOT7vfzpT0).
 
-<video width="320" height="240" controls>
-  <source src="https://drive.google.com/uc?export=download&id=12yTIkqfgJKl_qPKsIVjyTOlOT7vfzpT0" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
 
 
 ## Table of Contents
