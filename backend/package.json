@@ -11,7 +11,10 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@uiw/react-md-editor": "^4.0.4",
+    "mindsdb-js-sdk": "^2.3.0",
     "mysql2": "^3.10.2",
+    "react-toastify": "^10.0.5",
     "uuidv4": "^6.2.13"
   }
 }

@@ -1,8 +1,11 @@
 import React, { useState } from "react";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import "./LoginForm.css";
+import useAuthStatus from "../../hooks/auth/useAuthStatus";
 
 export default function LoginForm() {
+  const navigate = useNavigate();
+  const { state, login } = useAuthStatus();
   const [user, setUser] = useState({
     username: "",
     password: "",
@@ -10,6 +13,7 @@ export default function LoginForm() {
 
   async function handleSubmit(e) {
     e.preventDefault();
+
     try {
       const response = await fetch("http://localhost:3000/login", {
         method: "POST",
@@ -18,8 +22,17 @@ export default function LoginForm() {
         },
         body: JSON.stringify(user),
       });
-      const data = await response.json();
-      console.log(data);
+      const res = await response.json();
+      console.log(res);
+      state.userId = res.UId;
+      login();
+
+      if (res.status === 401) {
+        alert("Invalid login details");
+        return;
+      }
+
+      navigate("/");
     } catch (error) {
       console.log(error);
     }

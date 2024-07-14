@@ -1,9 +1,11 @@
 import React, { useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import "./LoginForm.css";
+import useAuthStatus from "../../hooks/auth/useAuthStatus";
 
 export default function SignupForm() {
   const navigate = useNavigate();
+  const { setUid } = useAuthStatus();
   const [user, setUser] = useState({
     username: "",
     password: "",
@@ -19,6 +21,18 @@ export default function SignupForm() {
         },
         body: JSON.stringify(user),
       });
+      const res = await response.json();
+      console.log(res);
+      setUid(res.UId);
+
+      if (res.status === 409) {
+        alert("Username already exists, please choose another one");
+        return;
+      } else if (res.status === 401) {
+        alert("Error creating user");
+        return;
+      }
+
       navigate("/auth/login");
     } catch (error) {
       console.error(error);

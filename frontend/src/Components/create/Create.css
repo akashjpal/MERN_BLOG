@@ -1,0 +1,93 @@
+.editor {
+  height: 800px;
+  padding: 1.2rem;
+  margin: 1rem 2rem;
+}
+
+.submit-btn {
+  margin: 1rem 2rem;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  font-weight: bold;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 0.3rem;
+  transition: ease-in-out 0.2s;
+}
+
+.submit-btn:hover {
+  background-color: #2786e6;
+}
+
+.back-btn {
+  color: white;
+  font-weight: bold;
+  padding: 0.3rem 0.6rem;
+  background-color: rgb(99, 99, 193);
+  border: none;
+  border-radius: 5%;
+  margin: 0.7rem;
+}
+
+/* Create.css */
+.floating-input {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: white;
+  padding: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+}
+
+.floating-input input {
+  margin-right: 10px;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.floating-input button {
+  padding: 5px 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+/* Create.css */
+.floating-input {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: white;
+  padding: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+
+.floating-input textarea {
+  margin-bottom: 10px;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  resize: none;
+}
+
+.floating-input button {
+  padding: 5px 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
