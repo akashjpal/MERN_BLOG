@@ -5,6 +5,7 @@ This is a MERN (MongoDB, Express, React, Node.js) blog project. The project incl
 # Video Example
 
 Here is a [link to the video](https://drive.google.com/uc?export=download&id=12yTIkqfgJKl_qPKsIVjyTOlOT7vfzpT0).
+[![Video](https://img.youtube.com/vi/Fbmu64TZc0w/0.jpg)](https://www.youtube.com/watch?v=Fbmu64TZc0w)
 
 
 
