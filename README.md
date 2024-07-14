@@ -7,7 +7,7 @@ This is a MERN (MongoDB, Express, React, Node.js) blog project. The project incl
 Here is a video embedded in the markdown:
 
 <video width="320" height="240" controls>
-  <source src="[https://drive.google.com/uc?id=12yTIkqfgJKl_qPKsIVjyTOlOT7vfzpT0&export=download](https://drive.google.com/uc?id=12yTIkqfgJKl_qPKsIVjyTOlOT7vfzpT0&export=download)" type="video/mp4">
+  <source src="https://drive.google.com/uc?export=download&id=12yTIkqfgJKl_qPKsIVjyTOlOT7vfzpT0" type="video/mp4">
   Your browser does not support the video tag.
 </video>
 
